@@ -1,0 +1,92 @@
+/* global */
+/* Ẩn nút lên xuống trên bàn phím số */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* DsKHTC.php */
+.rs-btn {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+}
+
+
+/* signUp.php */
+.body-signup {
+    background-color: #dbf0ff;
+}
+
+.container.ct-signup {
+    max-width: 600px;
+    margin-top: 32px;
+    background-color: #9dd1ff;
+    padding: 27px;
+    border-radius: 22px;
+}
+
+.btn-signup {
+    margin: 8px 37%;
+    background-color: #03b8ff;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 1.6rem;
+}
+
+/* QLtaiKhoan.php */
+.body-qltk {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-qltk {
+    min-width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-tk {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ffff;
+    min-width: 450px;
+    height: 55px;
+    margin-top: 16px;
+    border-radius: 25px;
+}
+
+.icon-subtk {
+    font-size: 1.6rem;
+    padding: 12px;
+}
+
+.icon-more {
+    position: absolute;
+    cursor: pointer;
+    right: 16px;
+    padding: 9px;
+}
+
+.dis-none {
+    display: none;
+}
+
+.mg-8 {
+    margin: 8px;
+}

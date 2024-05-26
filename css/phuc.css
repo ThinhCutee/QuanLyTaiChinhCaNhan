@@ -1,0 +1,38 @@
+h2{
+    width:400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(30, 144, 255);
+    color: aliceblue;
+}
+input,textarea{
+    width: 400px;
+}
+#but{
+    width:200px;
+}
+#myChartContainer {
+    width: 800px;
+    height: 300px;
+    position: relative;
+}
+canvas {
+    position: relative;
+    z-index: 0;
+}
+#tt{
+    width: 210px;
+    height: 23px;
+    float:right;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+#phuctb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

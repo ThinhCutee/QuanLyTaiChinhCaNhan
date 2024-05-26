@@ -1,0 +1,35 @@
+.container{
+    max-width: 80%;
+}
+.nav-item{
+    padding: 0;}
+
+#menu{
+    padding: 0;
+}
+
+.navbar{
+    padding: 0;
+}
+
+#menu_nav {
+width: 155px; /* Đặt chiều rộng mong muốn */
+height: 45px; /* Đặt chiều cao mong muốn */
+}
+
+.form-control{
+    max-width: 450px;
+    padding: 0;
+}
+.content > p{
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+.table{
+    border: 1px solid black !important;
+    background-color: white; 
+}
+thead > tr > th{
+    text-align: center;
+}
